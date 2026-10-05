@@ -1,0 +1,29 @@
+{
+  "name": "backend-2",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/hassanalii-dev/Backend-2#readme",
+  "bugs": {
+    "url": "https://github.com/hassanalii-dev/Backend-2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hassanalii-dev/Backend-2.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.2",
+    "nodemon": "^3.1.14"
+  },
+  "devDependencies": {}
+}
